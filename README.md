@@ -2,7 +2,7 @@
 
 ### Usage
 ```
-$wget https://github.com/aws-user-group-myanmar-aws-ugm/awsprice/releases/download/1.0.0/awsprice
+$wget https://github.com/aws-user-group-myanmar-aws-ugm/awsprice/releases/download/v1.0.0/awsprice
 $chmod +x awsprice
 ```
 

@@ -1,0 +1,6 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [],
+	"rootPath": "github.com/chronojam/aws-pricing-api/types/schema"
+}

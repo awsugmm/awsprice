@@ -1,4 +1,4 @@
-// Copyright © 2019 NAME HERE <EMAIL ADDRESS>
+// Copyright © 2019 AWS User Group Myanmar <awsug.mm@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,7 +20,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// getrdsCmd represents the getrds command
 var getrdsCmd = &cobra.Command{
 	Use:   "rds",
 	Short: "A brief price description of Amazon RDS",
@@ -32,14 +31,4 @@ var getrdsCmd = &cobra.Command{
 
 func init() {
 	getCmd.AddCommand(getrdsCmd)
-
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// getrdsCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// getrdsCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }

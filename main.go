@@ -1,4 +1,4 @@
-// Copyright © 2019 NAME HERE <EMAIL ADDRESS>
+// Copyright © 2019 AWS User Group Myanmar <awsug.mm@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/DTherHtun/awsprice/cmd"
+import "github.com/aws-user-group-myanmar-aws-ugm/awsprice/cmd"
 
 func main() {
 	cmd.Execute()

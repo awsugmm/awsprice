@@ -1,10 +1,24 @@
 # AWSPrice CLI Tool
 
 ### Usage
+
+#### For Linux 
 ```
 $wget https://github.com/aws-user-group-myanmar-aws-ugm/awsprice/releases/download/v1.0.0/awsprice
 $chmod +x awsprice
 ```
+
+#### For Window 
+```
+$wget https://github.com/aws-user-group-myanmar-aws-ugm/awsprice/releases/download/v1.0.0/awsprice.exe
+```
+
+#### For MAC
+```
+$wget https://github.com/aws-user-group-myanmar-aws-ugm/awsprice/releases/download/v1.0.0/awsprice.mac
+$chmod +x awsprice.mac
+```
+
 
 ```shell
 $./awsprice help

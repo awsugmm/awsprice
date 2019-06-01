@@ -1,4 +1,4 @@
-// Copyright © 2019 NAME HERE <EMAIL ADDRESS>
+// Copyright © 2019 AWS User Group Myanmar <awsug.mm@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,7 +19,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// getec2Cmd represents the getec2 command
 var getec2Cmd = &cobra.Command{
 	Use:   "ec2",
 	Short: "A brief price description of AWS EC2 instances",
@@ -34,17 +33,7 @@ var getec2Cmd = &cobra.Command{
 
 func init() {
 	getCmd.AddCommand(getec2Cmd)
-
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	//getec2Cmd.Flags().StringP("ec2", "", viper.GetString("EC2"), "set a ec2")
-	// getec2Cmd.PersistentFlags().String("foo", "", "A help for foo")
 	getec2Cmd.PersistentFlags().String("type", "t2.small", "instance Type")
 	getec2Cmd.PersistentFlags().String("os", "Linux", "Operating System")
 	getec2Cmd.PersistentFlags().String("tenancy", "Shared", "Tenancy")
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// getec2Cmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }

@@ -1,4 +1,4 @@
-// Copyright © 2019 NAME HERE <EMAIL ADDRESS>
+// Copyright © 2019 AWS User Group Myanmar <awsug.mm@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,7 +19,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// getcertificatemanagerCmd represents the getcertificatemanager command
 var getcertificatemanagerCmd = &cobra.Command{
 	Use:   "certmgr",
 	Short: "A brief price description of AWS Certificate Manager",
@@ -31,14 +30,4 @@ var getcertificatemanagerCmd = &cobra.Command{
 
 func init() {
 	getCmd.AddCommand(getcertificatemanagerCmd)
-
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// getcertificatemanagerCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// getcertificatemanagerCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }

@@ -1,4 +1,4 @@
-// Copyright © 2019 NAME HERE <EMAIL ADDRESS>
+// Copyright © 2019 AWS User Group Myanmar <awsug.mm@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,7 +19,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// getroute53Cmd represents the getroute53 command
 var getroute53Cmd = &cobra.Command{
 	Use:   "route53",
 	Short: "A brief price description of AWS Route53",
@@ -31,14 +30,4 @@ var getroute53Cmd = &cobra.Command{
 
 func init() {
 	getCmd.AddCommand(getroute53Cmd)
-
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// getroute53Cmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// getroute53Cmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }

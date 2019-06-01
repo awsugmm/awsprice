@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetDataPipeline getprice
 func GetDataPipeline() {
 	datapipeline := &schema.Datapipeline{}
 	err := datapipeline.Refresh()

@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetGameLift getprice
 func GetGameLift() {
 	gamelift := &schema.AmazonGameLift{}
 	err := gamelift.Refresh()

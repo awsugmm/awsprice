@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetS3Price getprice
 func GetS3Price() {
 	s3 := &schema.AmazonS3{}
 	err := s3.Refresh()

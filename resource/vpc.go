@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetVPC getprice
 func GetVPC() {
 	vpc := &schema.AmazonVPC{}
 	err := vpc.Refresh()

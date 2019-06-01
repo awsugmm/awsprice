@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetWorkSpace getprice
 func GetWorkSpace() {
 	workspace := &schema.AmazonWorkSpaces{}
 	err := workspace.Refresh()

@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetCertManager getprice
 func GetCertManager() {
 	certmanager := &schema.AWSCertificateManager{}
 	err := certmanager.Refresh()

@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetDevSupport getprice
 func GetDevSupport() {
 	devsupport := &schema.AWSDeveloperSupport{}
 	err := devsupport.Refresh()

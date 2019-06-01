@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetECR getprice
 func GetECR() {
 	ecr := &schema.AmazonECR{}
 	err := ecr.Refresh()

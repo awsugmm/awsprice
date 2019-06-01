@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetCloudFront getprice
 func GetCloudFront() {
 	cloudfront := &schema.AmazonCloudFront{}
 	err := cloudfront.Refresh()

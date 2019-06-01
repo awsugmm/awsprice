@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetCodeCommit getprice
 func GetCodeCommit() {
 	codecommit := &schema.AWSCodeCommit{}
 	err := codecommit.Refresh()

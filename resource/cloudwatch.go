@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetCloudWatch getprice
 func GetCloudWatch() {
 	cloudwatch := &schema.AmazonCloudWatch{}
 	err := cloudwatch.Refresh()

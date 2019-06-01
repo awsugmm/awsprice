@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetDirService getprice
 func GetDirService() {
 	dirsvr := &schema.AWSDirectoryService{}
 	err := dirsvr.Refresh()

@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetCloudSearch getprice
 func GetCloudSearch() {
 	cloudsearch := &schema.AmazonCloudSearch{}
 	err := cloudsearch.Refresh()

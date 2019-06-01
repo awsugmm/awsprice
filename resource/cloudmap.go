@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetCloudMap getprice
 func GetCloudMap() {
 	cloudmap := &schema.AWSCloudMap{}
 	err := cloudmap.Refresh()

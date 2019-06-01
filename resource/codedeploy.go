@@ -21,7 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
-// Get Code Deploy Price
+//GetCodeDeploy getprice
 func GetCodeDeploy() {
 	codedeploy := &schema.AWSCodeDeploy{}
 	err := codedeploy.Refresh()

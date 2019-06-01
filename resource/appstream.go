@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetAppStream getprice
 func GetAppStream() {
 	appstream := &schema.AmazonAppStream{}
 	err := appstream.Refresh()

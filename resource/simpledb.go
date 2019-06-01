@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetSimpleDB getprice
 func GetSimpleDB() {
 	simpledb := &schema.AmazonSimpleDB{}
 	err := simpledb.Refresh()

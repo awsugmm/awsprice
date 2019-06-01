@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetManageBlockChain getprice
 func GetManageBlockChain() {
 	mgmtblockchain := &schema.AmazonManagedBlockchain{}
 	err := mgmtblockchain.Refresh()

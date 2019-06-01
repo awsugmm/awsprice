@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetIOT getprice
 func GetIOT() {
 	iot := &schema.AWSIoT{}
 	err := iot.Refresh()

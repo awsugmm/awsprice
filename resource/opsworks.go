@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetOpsWork getprice
 func GetOpsWork() {
 	opswork := &schema.OpsWorks{}
 	err := opswork.Refresh()

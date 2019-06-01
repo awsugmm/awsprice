@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetQueueService getprice
 func GetQueueService() {
 	quesvc := &schema.AWSQueueService{}
 	err := quesvc.Refresh()

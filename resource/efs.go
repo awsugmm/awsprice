@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetEFS getprice
 func GetEFS() {
 	efs := &schema.AmazonEFS{}
 	err := efs.Refresh()

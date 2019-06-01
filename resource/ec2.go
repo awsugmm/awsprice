@@ -22,6 +22,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetEc2Price getprice
 func GetEc2Price(instantType string, opsys string, tenancy string) {
 	ec2 := &schema.AmazonEC2{}
 	err := ec2.Refresh()

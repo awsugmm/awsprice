@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetElasticCache getprice
 func GetElasticCache() {
 	escache := &schema.AmazonElastiCache{}
 	err := escache.Refresh()

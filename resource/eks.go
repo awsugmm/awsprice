@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetEKS getprice
 func GetEKS() {
 	eks := &schema.AmazonEKS{}
 	err := eks.Refresh()

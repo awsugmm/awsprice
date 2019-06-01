@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetRoute53 getprice
 func GetRoute53() {
 	R53 := &schema.AmazonRoute53{}
 	err := R53.Refresh()

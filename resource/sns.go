@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetSNS getprice
 func GetSNS() {
 	sns := &schema.AmazonSNS{}
 	err := sns.Refresh()

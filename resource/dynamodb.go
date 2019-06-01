@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetDynamondb getprice
 func GetDynamondb() {
 	dynamondb := &schema.AmazonDynamoDB{}
 	err := dynamondb.Refresh()

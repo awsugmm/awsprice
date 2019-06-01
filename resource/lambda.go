@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetLambda getprice
 func GetLambda() {
 	labmda := &schema.AWSLambda{}
 	err := labmda.Refresh()

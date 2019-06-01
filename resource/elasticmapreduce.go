@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetEsMapReduce getprice
 func GetEsMapReduce() {
 	esmapreduce := &schema.ElasticMapReduce{}
 	err := esmapreduce.Refresh()

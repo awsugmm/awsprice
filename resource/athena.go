@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetAthena getprice
 func GetAthena() {
 	s3 := &schema.AmazonS3{}
 	err := s3.Refresh()

@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetCodePipeline getprice
 func GetCodePipeline() {
 	codepipline := &schema.AWSCodePipeline{}
 	err := codepipline.Refresh()

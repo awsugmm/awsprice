@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetCodeBuild getprice
 func GetCodeBuild() {
 	codebuild := &schema.CodeBuild{}
 	err := codebuild.Refresh()

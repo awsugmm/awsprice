@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetRDS getprice
 func GetRDS() {
 	rds := &schema.AmazonRDS{}
 	err := rds.Refresh()

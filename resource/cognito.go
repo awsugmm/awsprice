@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetCognito getprice
 func GetCognito() {
 	cognito := &schema.AmazonCognito{}
 	err := cognito.Refresh()

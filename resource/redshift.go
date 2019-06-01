@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetRedshift getprice
 func GetRedshift() {
 	redshift := &schema.AmazonRedshift{}
 	err := redshift.Refresh()

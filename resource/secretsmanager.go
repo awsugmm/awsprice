@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetSecretMgr getprice
 func GetSecretMgr() {
 	secretmgr := &schema.AWSSecretsManager{}
 	err := secretmgr.Refresh()

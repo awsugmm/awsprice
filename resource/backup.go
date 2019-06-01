@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetBackUp getprice
 func GetBackUp() {
 	backup := &schema.AWSBackup{}
 	err := backup.Refresh()

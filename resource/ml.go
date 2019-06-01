@@ -21,6 +21,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 )
 
+//GetML get MachineLearning price
 func GetML() {
 	ml := &schema.AmazonML{}
 	err := ml.Refresh()

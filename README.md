@@ -1,4 +1,5 @@
 # AWSPrice CLI Tool
+[![Go Report Card](https://goreportcard.com/badge/github.com/aws-user-group-myanmar-aws-ugm/awsprice)](https://goreportcard.com/report/github.com/aws-user-group-myanmar-aws-ugm/awsprice)
 
 ### Usage
 

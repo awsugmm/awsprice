@@ -17,7 +17,7 @@ package resource
 import (
 	"os"
 
-	schema "github.com/chronojam/aws-pricing-api/types/schema"
+	"github.com/chronojam/aws-pricing-api/types/schema"
 	"github.com/olekukonko/tablewriter"
 )
 

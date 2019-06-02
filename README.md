@@ -1,6 +1,7 @@
 # AWSPrice CLI Tool
 [![Go Report Card](https://goreportcard.com/badge/github.com/aws-user-group-myanmar-aws-ugm/awsprice)](https://goreportcard.com/report/github.com/aws-user-group-myanmar-aws-ugm/awsprice)
-
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![GolangCi](https://github.com/golangci/golangci-web/blob/master/src/assets/images/badge_a_plus_flat.svg)](https://golangci.com/r/github.com/aws-user-group-myanmar-aws-ugm/awsprice)]
 ### Usage
 
 #### For Linux 
